@@ -11,9 +11,9 @@ generally <50GB in file size, expand to upwards of 500GB once loaded into blazeg
 ## Downloading historical wikidata dumps
 
 Recent Wikidata entity dumps are avalibe for download from
-[wikimedia.org.](https://dumps.wikimedia.org/wikidatawiki/entities/). Older wikidata entity dumps
+[wikimedia.org](https://dumps.wikimedia.org/wikidatawiki/entities/). Older wikidata entity dumps
 can be found at
-[from archive.org.](https://archive.org/details/wikimediadownloads?sort=-date&and[]="Wikidata+entity+dumps"&and[]=subject%3A"wikidata")
+[archive.org](https://archive.org/details/wikimediadownloads?sort=-date&and[]="Wikidata+entity+dumps"&and[]=subject%3A"wikidata").
 
 
 ## Processing wikidata dumps for use with blazegraph
@@ -23,10 +23,20 @@ the sofware required to process a wikidata entitiy dump and load the resultant d
 read the [getting started](https://github.com/wikimedia/wikidata-query-rdf/blob/master/docs/getting-started.md)
 page for help in using this software.
 
-# Contents
-
 ## Requirments
 
-## Notebooks
+Anaconda envrionment file `environment.yml` is provided. In addition to this file, the
+[hetnet_ml](https://github.com/mmayers12/hetnet_ml) repo is requred to be in your python path for
+feature extraction to properly work.
 
-## Scripts
+# Contents
+
+## Notebooks & Scripts
+
+Notebooks are numbered in the folder `2_code` and to be run in number order.
+
+## System info
+
+The machine learning portion of this repo was run on a workstation with 32 Cores and 378 GB ram.
+Be sure and edit the `n_jobs` paramter in n_fold_CV_training.py (line 93) and full_dataset_training.py (line 80)
+if your machine has fewer cores.
