@@ -33,10 +33,11 @@ feature extraction to properly work.
 
 ## Notebooks & Scripts
 
-Notebooks are numbered in the folder `2_code` and to be run in number order.
+Notebooks are numbered in the folder `1_code` and to be run in number order.
 
 ## System info
 
 The machine learning portion of this repo was run on a workstation with 32 Cores and 378 GB ram.
-Be sure and edit the `n_jobs` paramter in n_fold_CV_training.py (line 93) and full_dataset_training.py (line 80)
+Be sure and edit the `n_jobs` paramter in `1_code/n_fold_CV_training.py` (line 93) and
+`1_code/full_dataset_training.py` (line 80)
 if your machine has fewer cores.
