@@ -1,0 +1,104 @@
+{
+  "AFFLICTS": {
+    "abbrev": "af",
+    "id": "P689"
+  },
+  "ANATOMICAL_LOCATION": {
+    "abbrev": "l",
+    "id": "P927"
+  },
+  "BIOLOGICAL_PROCESS": {
+    "abbrev": "bp",
+    "id": "P682"
+  },
+  "CELL_COMPONENT": {
+    "abbrev": "cc",
+    "id": "P681"
+  },
+  "GENETIC_ASSOCIATION": {
+    "abbrev": "a",
+    "id": "P2293"
+  },
+  "HAS_ACTIVE_INGREDIENT": {
+    "abbrev": "ai",
+    "id": "P3781"
+  },
+  "HAS_CAUSE": {
+    "abbrev": "hc",
+    "id": "P828"
+  },
+  "HAS_PART": {
+    "abbrev": "hp",
+    "id": "P527",
+    "rev_id": "P361"
+  },
+  "HAS_ROLE": {
+    "abbrev": "r",
+    "id": "P2868"
+  },
+  "MEDICAL_SPECIALTY": {
+    "abbrev": "ms",
+    "id": "P1995"
+  },
+  "MOLECULAR_FUNCTION": {
+    "abbrev": "mf",
+    "id": "P680"
+  },
+  "NEGATIVE_DIAGNOSTIC_PREDICTOR": {
+    "abbrev": "nd",
+    "id": "P3357"
+  },
+  "NEGATIVE_THERAPEUTIC_PREDICTOR": {
+    "abbrev": "nt",
+    "id": "P3355"
+  },
+  "PERTURBS": {
+    "abbrev": "p",
+    "id": "P129",
+    "qual": "P2868",
+    "rev_id": "P129",
+    "rev_qual":"P366"
+  },
+  "PHYSICALLY_INTERACTS_WITH": {
+    "abbrev": "iw",
+    "id": "P129"
+  },
+  "POSITIVE_DIAGNOSTIC_PREDICTOR": {
+    "abbrev": "pd",
+    "id": "P3356"
+  },
+  "POSITIVE_THERAPEUTIC_PREDICTOR": {
+    "abbrev": "pt",
+    "id": "P3354"
+  },
+  "REGULATES": {
+    "abbrev": "reg",
+    "id": ["P682", "P128"],
+    "inner_types": ["BP"]
+    },
+  "SIGNIFICANT_DRUG_INTERACTION": {
+    "abbrev": "di",
+    "id": "P769"
+  },
+  "SUBCLASS_OF": {
+    "abbrev": "s",
+    "id": "P279"
+  },
+  "SYMPTOMS": {
+    "abbrev": "sy",
+    "id": "P780"
+  },
+  "THERAPEUTIC_AREA": {
+    "abbrev": "ta",
+    "id": "P4044"
+  },
+  "TREATS": {
+    "abbrev": "t",
+    "id": "P2175",
+    "rev_id": "P2176"
+  },
+  "VARIANT_OF": {
+    "abbrev": "v",
+    "id": "P3433"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "Active Site": {
+    "abbrev": "AS",
+    "extend": false,
+    "id": "Q423026",
+    "subclass": false
+  },
+  "Anatomical Structure": {
+    "abbrev": "A",
+    "extend": true,
+    "id": "Q4936952",
+    "subclass": false
+  },
+  "Binding Site": {
+    "abbrev": "BS",
+    "extend": false,
+    "id": "Q616005",
+    "subclass": false
+  },
+  "Biological Pathway": {
+    "abbrev": "PW",
+    "extend": false,
+    "id": "Q4915012",
+    "subclass": false
+  },
+  "Biological Process": {
+    "abbrev": "BP",
+    "extend": false,
+    "id": "Q2996394",
+    "subclass": false
+  },
+  "Cellular Component": {
+    "abbrev": "CC",
+    "extend": false,
+    "id": "Q5058355",
+    "subclass": false
+  },
+  "Chemical Hazard": {
+    "abbrev": "CH",
+    "extend": false,
+    "id": "Q21167512",
+    "subclass": true
+  },
+  "Chemical Role": {
+    "abbrev": "CR",
+    "extend": false,
+    "id": null,
+    "subclass": false
+  },
+  "Compound": {
+    "abbrev": "C",
+    "extend": false,
+    "id": "Q11173",
+    "subclass": false
+  },
+  "Disease": {
+    "abbrev": "D",
+    "extend": false,
+    "id": "Q12136",
+    "p_extend": "wdt:P279?",
+    "subclass": false
+  },
+  "Gene": {
+    "abbrev": "G",
+    "extend": false,
+    "id": "Q7187",
+    "qualifiers": [
+      {
+        "not": true,
+        "o": null,
+        "p": "P688",
+        "s": "Gene"
+      },
+      {
+        "not": false,
+        "o": "Q15978631",
+        "p": "P703",
+        "s": "Gene"
+      }
+    ],
+    "subclass": false
+  },
+  "Medical Specialty": {
+    "abbrev": "MS",
+    "extend": false,
+    "id": "Q930752",
+    "subclass": false
+  },
+  "Molecular Function": {
+    "abbrev": "MF",
+    "extend": false,
+    "id": "Q14860489",
+    "subclass": false
+  },
+  "Pharmaceutical Product": {
+    "abbrev": "PP",
+    "extend": false,
+    "id": "Q28885102",
+    "subclass": false
+  },
+  "Protein": {
+    "abbrev": "P",
+    "extend": false,
+    "id": "Q8054",
+    "qualifiers": [
+      {
+        "not": false,
+        "o": "Protein",
+        "p": "P688",
+        "s": "Gene"
+      },
+      {
+        "not": false,
+        "o": "Q15978631",
+        "p": "P703",
+        "s": "Gene"
+      }
+    ],
+    "subclass": false
+  },
+  "Protein Domain": {
+    "abbrev": "PD",
+    "extend": false,
+    "id": "Q898273",
+    "subclass": false
+  },
+  "Protein Family": {
+    "abbrev": "PF",
+    "extend": false,
+    "id": "Q417841",
+    "p_extend": "wdt:P279*",
+    "subclass": false
+  },
+  "Sequence Variant": {
+    "abbrev": "V",
+    "extend": false,
+    "id": null,
+    "subclass": false
+  },
+  "Structural Motif": {
+    "abbrev": "SM",
+    "extend": false,
+    "id": "Q3273544",
+    "subclass": false
+  },
+  "Super-Secondary Structure": {
+    "abbrev": "SS",
+    "extend": true,
+    "id": "Q7644128",
+    "subclass": false
+  },
+  "Symptom": {
+    "abbrev": "S",
+    "extend": false,
+    "id": "Q169872",
+    "qualifiers": [
+      {
+        "not": true,
+        "o": "Q12136",
+        "p": "P31",
+        "s": "Symptom"
+      },
+      {
+        "not": true,
+        "o": "Q12136",
+        "p": "P279",
+        "s": "Symptom"
+      }
+    ],
+    "subclass": false
+  }
+}
